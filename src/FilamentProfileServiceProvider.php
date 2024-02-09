@@ -2,11 +2,11 @@
 
 namespace RyanChandler\FilamentProfile;
 
-use Filament\PluginServiceProvider;
+use Filament\PackageServiceProvider;
 use Livewire\Livewire;
 use RyanChandler\FilamentProfile\Pages\Profile;
 
-class FilamentProfileServiceProvider extends PluginServiceProvider
+class FilamentProfileServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-profile';
 
